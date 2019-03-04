@@ -76,7 +76,7 @@
                     $('#gameTable').append(
                         `<div class="uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l">
                             <p>${response.data[i].rating}<p>
-                            <p><img src="${response.data[i].url}" width="150" height="150"><p>
+                            <p><img src="${response.data[i].images.fixed_height.url}" height="800" width="800"><p>
                         </div>`
                     );
                 }
